@@ -1,0 +1,20 @@
+services:
+  sequentialthinking:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sequentialthinking-server
+    ports:
+      - "3110:8000"
+    restart: unless-stopped
+    # Uncomment the following lines if you need volume mounts
+    volumes:
+      - ./data:/app/data
+    # Add the external network to the service
+    networks:
+      - External
+
+# Define the external network
+networks:
+  External:
+    external: true
