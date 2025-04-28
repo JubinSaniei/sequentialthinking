@@ -7,16 +7,19 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-  - [Docker Installation](#docker-installation)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Installation](#-installation)
+  - [Docker Installation](#docker-installation-recommended)
   - [Manual Installation](#manual-installation)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Usage](#-usage)
+  - [Running Locally](#running-locally)
+  - [Open WebUI Integration](#open-webui-integration)
+  - [Docker Usage](#docker-usage)
+- [Dependencies](#-dependencies)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🔍 Overview
 
@@ -90,6 +93,12 @@ Or run it directly after building:
 ```
 node dist/index.js
 ```
+
+### Open WebUI Integration
+
+You can integrate Sequential Thinking with Open WebUI by following these steps:
+
+https://docs.openwebui.com/openapi-servers/open-webui/
 
 ### Docker Usage
 
